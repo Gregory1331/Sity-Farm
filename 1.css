@@ -1,0 +1,739 @@
+body,
+p,
+h1,
+h2,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D0FABC;
+}
+
+header{
+    height: 110px;
+    background-color:#266528;
+}
+
+    
+
+
+p{
+    position: absolute;
+    width: 422px;
+    height: 67px;
+    left: 780px;
+    top: -5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+
+}
+
+p1{
+    position: absolute;
+    width: 155px;
+    height: 41px;
+    left: 889px;
+    top: 57px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+#id_clock{
+    position: absolute;
+    font-size: 64px;
+    left: 10px;
+    top: 5px;
+    color: #000000;
+}
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 1787px;
+    top: 5px;
+
+}
+
+
+
+/* круг1 */
+
+.circle{ 
+    position: absolute;
+    width: 363px;
+    height: 367px;
+    left: 227px;
+    top: 188px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.water{
+    position: absolute;
+    width: 164px;
+    height: 151px;
+    left: 105px;
+    top: 20px;
+
+}
+
+text{
+    position: absolute;
+    width: 229px;
+    height: 51px;
+    left: 70px;
+    top: 180px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
+}
+
+/* круг1 end */
+
+
+/* круг2 */
+
+.circle1{ 
+    position: absolute;
+    width: 363px;
+    height: 367px;
+    left: 778px;
+    top: 188px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.temp{
+    position: absolute;
+    width: 111px;
+    height: 118px;
+    left: 130px;
+    top: 20px;
+
+}
+
+text1{
+    position: absolute;
+    width: 257px;
+    height: 65px;
+    left: 50px;
+    top: 180px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+color: #000000;
+
+}
+
+/* круг2 end */
+
+/* круг3 */
+
+.circle2{ 
+    position: absolute;
+width: 363px;
+height: 367px;
+left: 1329px;
+top: 184px;
+
+background: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.lap{
+    position: absolute;
+    width: 111px;
+    height: 118px;
+    left: 130px;
+    top: 20px;
+
+}
+
+text2{
+    position: absolute;
+width: 255px;
+height: 95px;
+left: 70px;
+top: 140px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* круг3 end */
+
+
+/* круг4 */
+
+.circle3{ 
+    position: absolute;
+    width: 363px;
+    height: 367px;
+    left: 778px;
+    top: 599px;
+    
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.cond{
+    position: absolute;
+    width: 111px;
+    height: 118px;
+    left: 130px;
+    top: 20px;
+
+}
+
+text3{
+    position: absolute;
+width: 255px;
+height: 95px;
+left: 50px;
+top: 140px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+
+}
+
+/* круг4 end */
+
+
+.rectangle{
+    
+
+position: absolute;
+width: 822px;
+height: 79px;
+left: 552px;
+top: 1105px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 21px;
+}
+
+text4{
+    position: absolute;
+width: 527px;
+height: 45px;
+left: 150px;
+top: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+.load{
+    position: absolute;
+width: 59px;
+height: 57px;
+left: 600px;
+top: 10px;
+}
+
+.rectanglefirstdivisor{
+    
+
+    position: absolute;
+    width: 1920px;
+    height: 67px;
+    left: 1px;
+    top: 1254px;
+    
+    background: #1F3F20;
+    border: 1px solid #000000;
+    }
+
+.lamp{
+    position: absolute;
+width: 155px;
+height: 165px;
+left: 253px;
+top: 1330px;
+
+}
+
+light1{
+position: absolute;
+width: 500px;
+height: 65px;
+left: 115px;
+top: 1499px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 60px;
+  }
+  
+  
+  .switch input {display:none;}
+  
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 5px;
+    bottom: 0;
+    background-color: rgb(255, 0, 0);
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 58px;
+    width: 58px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+
+  
+  input:checked + .slider {
+    background-color: #01ef01;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #01ef01;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(65px);
+    -ms-transform: translateX(65px);
+    transform: translateX(65px);
+  }
+  
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.button{
+    position: absolute;
+    top: 1590px;
+    left: 500px;
+}
+
+level1{
+position: absolute;    
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+left: 45px;
+top: 1595px;
+
+color: #000000;
+}
+
+.button2{
+    position: absolute;
+    top: 1770px;
+    left: 500px;
+}
+
+level2{
+    position: absolute;    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    left: 45px;
+    top: 1780px;
+    
+    color: #000000;
+    }
+
+.photo{
+    position: absolute;
+width: 1100px;
+height: 721.11px;
+left: 820px;
+top: 1357px;
+border-radius: 113px;
+}
+
+.button3{
+    position: absolute;
+    top: 1950px;
+    left: 500px;
+}
+
+level3{
+    position: absolute;    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    left: 45px;
+    top: 1965px;
+    
+    color: #000000;
+    }
+.watering{
+    position: absolute;
+text-align: center;
+left: 870px;
+top: 2126px;
+
+}
+.tap{
+width: 180px;
+height: 180px;
+}
+
+p2{
+    
+width: 491px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+
+    
+    color: #000000;
+
+}
+
+.slidecontainer {
+    width: 500px;
+    top: 2450px;
+    left: 720px;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .slider1 {
+    position: relative;
+    right: 190px;
+    -webkit-appearance: none;
+    width: 900px;
+    height: 40px;
+    border-radius: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider1:hover {
+    opacity: 1;
+  }
+  
+  .slider1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider1::-moz-range-thumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+    
+  }
+
+p5{
+    font-size: 50px;
+}
+
+.rectanglefirstdivisor1{
+    
+
+    position: absolute;
+    width: 1920px;
+    height: 67px;
+    left: 1px;
+    top: 2640px;
+    
+    background: #1F3F20;
+    border: 1px solid #000000;
+    }
+
+.recording{
+    position: absolute;
+    text-align: center;
+    top: 2750px;
+    left: 300px ;
+}
+
+.recor{
+   
+    height: 128px;
+    width: 128px;
+   
+
+}    
+
+recordingtext{
+    
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+
+width: 443px;
+}
+
+.rec{
+    position: absolute;
+    left: 140px;
+    width: 128px;
+    height: 128px;
+    top: 200px;
+}
+
+.notes{
+    position: absolute;
+    top: 2765px;
+    right: 300px;
+    width: 128px;
+    height: 128px;
+}
+
+textarea{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 3050px;
+    right: 50px;
+}
+
+.fixed-bottom{
+    position: absolute;
+    top: 4100px;
+    
+    width: 1920px;
+    height: 104px;
+    background: #266528;
+}
+.activity{
+    text-align: center;
+    position: absolute;
+    left: 350px;
+    top: 3500px;
+}
+
+textactuvity{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+width: 562px;
+height: 59px;
+
+color: #000000;
+position: absolute;
+}
+
+.rectangle1{
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    background: white;
+}
+p9{
+    position: absolute;
+    left: 10px;
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    header{
+        width: 1030px;
+        position: absolute;
+    }
+    .menu{
+        position: absolute;
+        right: 1450px;
+    }
+    .rectanglefirstdivisor, .rectanglefirstdivisor1{
+        width: 1030px;
+
+    }
+
+    .rectangle{
+        position: absolute;
+        left: 200px;
+    }
+
+    .fixed-bottom{
+        width: 1030px;
+    }
+    .user{
+        left: 900px;
+    }
+
+    .circles{
+        position: absolute;
+        left: -100px;
+    }
+
+    .circle1{
+        position: absolute;
+        
+        left:670px;
+    }
+
+    .circle3{
+        position: absolute;
+        left: 670px;
+    }
+
+    .circle2{
+        position: absolute;
+        left: 220px;
+        top: 599px;
+    }
+
+
+    .photo{
+        position: absolute;
+        left: 550px;
+        height: 300px;
+        width: 450px;
+        top: 1650px;
+    }
+    
+    .leyka{
+        position: absolute;
+        left: -450px;
+    }
+
+    .recording{
+        position: absolute;
+        left: 100px;
+    }
+
+    .notes{
+        position: absolute;
+       left: 800px;
+    }
+
+
+
+
+    .activity{
+        position: absolute;
+        left: 170px;
+        top: 3600px;
+    }
+
+    .button{
+        position: absolute;
+        left: 350px;
+    }
+
+    .button2{
+        position: absolute;
+        left: 350px;
+    }
+
+    .button3{
+        position: absolute;
+        left: 350px;
+    }
+
+    .rectangle1{
+        position: absolute;
+        width: 700px;
+    }
+     
+    textarea{
+        position: absolute;
+        width: 300px;
+        right: 200px;
+        top: 3000px;
+    }
+   
+
+
+
+
+
+
+
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+<header>
+    <div class="menu">
+        <p>GreenGarden</p>
+        <p1>City-Farm</p1>
+    </div>
+    <script>
+        function digitalClock() {
+         var date = new Date();
+         var hours = date.getHours();
+         var minutes = date.getMinutes();
+         var seconds = date.getSeconds();
+            //* добавление ведущих нулей */
+           if (hours < 10) hours = "0" + hours;
+           if (minutes < 10) minutes = "0" + minutes;
+           if (seconds < 10) seconds = "0" + seconds;
+             document.getElementById("id_clock").innerHTML = hours + ":" + minutes + ":" + seconds;
+             setTimeout("digitalClock()", 1000);
+        }
+       </script>
+        <div id="id_clock"></div>
+        <script>digitalClock();</script>
+    <img class="user" src="user.png" alt="user">
+</header>
+<main>
+<div class="circles">
+    <div class="circle">
+        <img  class="water" src="water.png" alt="">
+            <text>ВЛАЖНОСТЬ</text>
+    </div>
+
+    <div class="circle1">
+        <img  class="temp" src="temperature.png" alt="">
+            <text1>ТЕМПЕРАТУРА<br></text1>
+    </div>
+    <div class="circle2">
+        <img  class="lap" src="tap.png" alt="">
+            <text2>УРОВЕНЬ ЖИДКОСТИ</text2>
+    </div>
+    <div class="circle3">
+        <img  class="cond" src="conditional.png" alt="">
+            <text3>ВЕНТИЛЯЦИЯ</text3>
+    </div>
+ 
+    <div class="rectangle">
+        <text4>Проверка показателей.....</text4>
+        <img  class="load" src="loading.png" alt="">
+    </div>
+</div>     
+    <div class="rectanglefirstdivisor"></div>
+    <div class="light">
+           <img class="lamp" src="lamp.png" alt="">
+           <light1>Управление освещением</light1>
+    </div>   
+    <div class="button">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    <level1>Уровень 1</level1> 
+    <div class="button2">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    <level2>Уровень 2</level2>
+    <img class="photo" src="levels.jpg" alt="">
+
+    <div class="button3">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    <level3>Уровень 3</level3>
+
+<div class="leyka">
+    <div class="watering">
+        <img class="tap" src="tap.png" alt=""><br><br>
+      
+        <p2>ПОЛИВ</p2>
+    </div>
+
+    <div class="slidecontainer">
+        <input type="range" min="0" max="10" value="10" class="slider1" id="myRange">
+        <p5>Значение: <span id="demo"></span></p5>
+      </div>
+</div>     
+      <script>
+      var slider1 = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider1.value;
+      
+      slider1.oninput = function() {
+        output.innerHTML = this.value;
+      }
+      </script>
+       <div class="rectanglefirstdivisor1"></div>
+
+      <div class="recording">
+        <img class="recor" src="recording.png" alt=""><br><br>
+        <recordingtext>ВИДЕОНАБЛЮДЕНИЕ</recordingtext>
+        <img class="rec" src="rec.png" alt="">
+      </div> 
+      <div class="noteS">
+        <img class="notes" src="notes.png" alt="">
+        <textarea placeholder="Новая заметка....."></textarea>
+      </div>
+<div class="activity">
+    <textactuvity>
+        Последняя активность
+        <br><br><br>
+    </textactuvity><br><br>
+    <div class="rectangle1">
+        <p9>[16:34+31/11/2022]-Logged in as 'user'<br>
+            [16:34+31/11/2022]-Logged in as 'Admin'<br>
+            [16:34+31/11/2022]-Cam out in as 'user'<br></p9>
+    </div>
+</div>
+    
+</main>
+
+    <footer>
+        <div class="fixed-bottom">
+            
+        </div>
+    </footer>
+</body>
+</html>
